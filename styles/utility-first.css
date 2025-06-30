@@ -25,23 +25,23 @@
   font: var(--text-sm);
 }
 
-.grey-100 {
+.gray-100 {
   color: var(--gray-100);
 }
 
-.grey-200 {
+.gray-200 {
   color: var(--gray-200);
 }
 
-.grey-300 {
+.gray-300 {
   color: var(--gray-300);
 }
 
-.grey-400 {
+.gray-400 {
   color: var(--gray-400);
 }
 
-.grey-500 {
+.gray-500 {
   color: var(--gray-500);
 }
 
@@ -72,3 +72,12 @@
 .text-align-center {
   text-align: center;
 }
+
+.icon-red {
+  filter: var(--svg-filter-red);
+}
+
+.icon-blue {
+  filter: var(--svg-filter-blue);
+}
+

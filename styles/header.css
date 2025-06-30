@@ -1,26 +1,72 @@
 header {
   width: 100%;
-  height: 750px;  
-  background-image: url("../src/images/Background_Intro.png");  
+  height: 750px;
+  background-image: url("../src/images/Background_Intro.png");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 120px 163px;
 }
 
-.info {
-
+.header-info {
+  display: flex;
+  flex-direction: column;
+  /* gap: 80px; */
 }
 
-.info img {
-  width: 96px;
+.info {
+  /* background-color: rgba(135, 135, 135, 0.169); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-inline: 180px; */
+  margin-bottom: 80px;
+  img {
+    width: 96px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: center 25%;
+    border: 2px solid var(--primary-red);
+    padding: 4.36px;
+    margin-bottom: 64px;
+  }
+
+  h2 {
+    margin-bottom: 8px;
+  }
+  p {
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+
+.tags {
+  padding-inline: 143px;
+  margin-bottom: 94px;
+
+  ol {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgba(4, 163, 155, 0.097); */
+    li {
+      display: flex;
+      align-items: center;
+      background-color: var(--gray-400);
+      padding: 8px 16px;
+      border-radius: 46px;
+      gap: 8px;
+
+      img {
+        width: 24px;
+        aspect-ratio: 1/1;
+      }
+    }
+  }
+}
+
+.mais-icon {
+  margin: auto;
+  width: 32px;
   aspect-ratio: 1/1;
   object-fit: cover;
-  border-radius: 50%;
-  object-position: center 25%;
-  border: 2px solid var(--primary-red);
-  padding: 4.36px;
-}
-
-.teste {
-  background-image: url("/shared-assets/images/examples/lizard.png");
 }

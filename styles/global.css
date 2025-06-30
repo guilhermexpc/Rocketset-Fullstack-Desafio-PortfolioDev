@@ -23,6 +23,10 @@
   --text-subtitle: 1.25rem/120% var(--font-family-subtitle);
   --text-md: 1rem/140% var(--font-family-text);
   --text-sm: 0.875rem/140% var(--font-family-text);
+
+  --svg-filter-red: invert(49%) sepia(67%) saturate(838%) hue-rotate(313deg) brightness(96%) contrast(85%);
+
+  --svg-filter-blue: invert(60%) sepia(15%) saturate(2019%) hue-rotate(166deg) brightness(87%) contrast(98%);
 }
 
 * {
