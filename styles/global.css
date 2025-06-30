@@ -17,7 +17,7 @@
   --font-family-text: "Maven Pro", sans-serif;
 
   --text-title-lg: bold 3.5rem/120% var(--font-family-title);
-  --text-title-md: bold 2rem/120% var(--font-family-title);
+  --text-title-md: bold 1.5rem/120% var(--font-family-title);
   --text-title-sm: bold 1rem/120% var(--font-family-title);
 
   --text-subtitle: 1.25rem/120% var(--font-family-subtitle);
@@ -61,6 +61,7 @@ img {
 }
 
 .container {
+  width: 100%;
   max-width: 1366px;  
   margin-inline: auto;
   display: flex;

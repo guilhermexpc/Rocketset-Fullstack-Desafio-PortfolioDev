@@ -1,0 +1,10 @@
+.projects {
+  width: 100%;
+  padding-inline: 163px;  
+  
+  .projects-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+  }
+}

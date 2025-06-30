@@ -1,10 +1,12 @@
 header {
   width: 100%;
-  height: 750px;
+  /* height: 750px; */
   background-image: url("../src/images/Background_Intro.png");
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 120px 163px;
+  padding-inline: 163px;
+  padding-top: 120px;
+  padding-bottom: 56px;
 }
 
 .header-info {
@@ -20,6 +22,7 @@ header {
   align-items: center;
   /* margin-inline: 180px; */
   margin-bottom: 80px;
+  
   img {
     width: 96px;
     aspect-ratio: 1/1;
@@ -65,8 +68,10 @@ header {
 }
 
 .mais-icon {
-  margin: auto;
+  margin-inline: auto;
+  
   width: 32px;
   aspect-ratio: 1/1;
   object-fit: cover;
+
 }
