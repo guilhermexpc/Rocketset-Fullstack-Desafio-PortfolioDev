@@ -22,7 +22,7 @@ header {
   align-items: center;
   /* margin-inline: 180px; */
   margin-bottom: 80px;
-  
+
   img {
     width: 96px;
     aspect-ratio: 1/1;
@@ -45,6 +45,7 @@ header {
 
 .tags {
   padding-inline: 143px;
+
   margin-bottom: 94px;
 
   ol {
@@ -69,9 +70,14 @@ header {
 
 .mais-icon {
   margin-inline: auto;
-  
+
   width: 32px;
   aspect-ratio: 1/1;
   object-fit: cover;
+}
 
+@media (max-width: 1200px) {
+  .tags {
+    padding-inline: 25px;
+  }
 }
