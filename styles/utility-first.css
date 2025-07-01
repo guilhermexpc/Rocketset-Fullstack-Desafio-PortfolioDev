@@ -81,3 +81,7 @@
   filter: var(--svg-filter-blue);
 }
 
+.bold {
+  font-weight: bold;
+}
+
