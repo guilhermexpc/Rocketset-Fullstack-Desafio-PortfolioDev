@@ -37,7 +37,7 @@
 
 body {
   font: var(--text-md);
-  overflow: hidden;
+  
   background-color: var(--gray-500);
 }
 
